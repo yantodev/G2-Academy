@@ -1,0 +1,107 @@
+body {
+    background-image: url("image/image.png");
+    margin: 0px;
+}
+
+#header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: x-large;
+    padding: 10px;
+    width: 100%;
+}
+
+#header .website-name {
+    font-size: 25px;
+    /* margin: 0 0; */
+    margin: 10px;
+}
+
+#header .website-menu {
+    float: right;
+}
+
+#header .website-menu a {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#header .website-menu a:hover {
+    color: chartreuse;
+}
+
+#container {
+    display: table;
+    width: auto;
+    margin: auto;
+    padding: 0 20px;
+}
+
+#sidebar {
+    width: 15%;
+    padding: 20px 20px;
+    margin-right: 20px;
+    float: left;
+    background-color: darkgreen;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    float: left;
+}
+
+#sidebar a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+#sidebar a:hover {
+    color: chartreuse;
+}
+
+#konten {
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    float: left;
+    width: 70%;
+}
+
+#konten h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#konten p {
+    text-align: justify;
+}
+
+#konten ol li {
+    list-style-type: decimal;
+}
+
+#footer {
+    background-color: black;
+    margin-top: 10px;
+    padding: 25px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    float: bottom;
+}
