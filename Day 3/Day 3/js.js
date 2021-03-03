@@ -19,11 +19,9 @@ var profile = {
     tglLahir: "10 September 1993",
     bag: ['Laptop', "Mouse", "Charger"],
     newStatus: "Pantai",
-    newBag: ["Kacamata", "Baju Renang", "Kamera", "Handuk"]
+    newBag: ["Kacamata", "Baju Renang", "Kamera", "Handuk"],
+    pesan: "Terima Kasih telah membantu saya...."
 };
-for (let i = 0; i < profile.bag; i++) {
-
-}
 
 
 document.getElementById("tgl-lahir").innerHTML = profile.tglLahir;
@@ -36,5 +34,6 @@ document.getElementById("bag").innerHTML = profile.bag;
 document.getElementById("tbl-Ganti").onclick = function() {
     gantiBag();
     hitungBag2();
-    alert('Terima Kasih, Telah membantu saya!!!');
+    // alert('Terima Kasih, Telah membantu saya!!!');
+    document.getElementById("pesan").innerHTML = profile.pesan;
 };
