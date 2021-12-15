@@ -1,0 +1,197 @@
+body {
+  background-image: url("../img/background-hd-wallpaper-batik-biru-scaled.webp");
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 10px rgb(255, 239, 13); /* offset-x | offset-y | blur-radius | color */
+}
+
+.navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.308);
+  margin: 20px;
+}
+
+.menu {
+  color: rgb(255, 239, 13);
+  margin: 10px;
+  font-size: x-large;
+}
+.menu:hover {
+  color: aliceblue;
+}
+.navbar .btn-menu {
+  display: flex;
+  flex: 2;
+}
+.navbar .btn-login {
+  display: flex;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.397);
+}
+.login h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
+.form-login form label {
+  text-align: left;
+  color: #a0cff5;
+  margin-left: 15px;
+}
+.form-login form input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 8px 1px;
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #2979ff;
+  color: aliceblue;
+  font-size: 20px;
+}
+.form-login form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 8px 1px;
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #2979ff;
+  color: aliceblue;
+  font-size: 20px;
+}
+.form-login form input[type="checkbox"] {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.form-login form span {
+  margin: 10px;
+  color: #fafafa;
+  display: inline-flex;
+}
+
+.form-login form button {
+  cursor: pointer;
+  margin: 20px auto;
+  border-radius: 10px;
+  justify-content: center;
+  width: 50%;
+  padding: 5px 0;
+  border: none;
+  background-color: #2979ff;
+  font-size: 18px;
+  color: #fafafa;
+}
+.form-login form button:hover {
+  background-color: green;
+}
+
+.body {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.308);
+}
+.body-konten {
+  margin: 0 auto;
+  text-align: center;
+}
+.konten {
+  background-color: #2979ff;
+  display: inline-grid;
+  margin: 10px;
+  width: 250px;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+}
+.konten img {
+  width: 250px;
+}
+.konten small {
+  text-align: center;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.text {
+  background-color: aqua;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.konten:hover {
+  background-color: yellow;
+}
+.konten:hover img {
+  opacity: 0.3;
+}
+.konten:hover .image {
+  opacity: 0.3;
+}
+.konten:hover .middle {
+  opacity: 1;
+}
+.footer {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgba(240, 248, 255, 0.308);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: black;
+}
+.footer a:hover {
+  color: rgb(241, 245, 11);
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px rgb(255, 239, 13); /* offset-x | offset-y | blur-radius | color */
+  }
+}
