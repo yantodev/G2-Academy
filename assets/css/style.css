@@ -39,6 +39,36 @@ a {
 .navbar .btn-login {
   display: flex;
 }
+
+.search-bar {
+  background-color: rgba(0, 0, 0, 0.432);
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.search-bar input {
+  height: 30px;
+  width: 80%;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  border-bottom: 2px solid #2979ff;
+  color: aliceblue;
+}
+.search-bar button {
+  cursor: pointer;
+  background-color: #2cafec;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  font-size: larger;
+  float: right;
+}
+.search-bar button:hover {
+  background-color: chocolate;
+}
 .login {
   display: flex;
   flex-direction: column;
