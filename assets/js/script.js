@@ -44,6 +44,7 @@ if (email === "" && uang === 0) {
     console.log("Kembalian anda adalah $(uang - hargaA)");
     console.log("Terima kasih");
   }
+  //cek pilihan
 } else if (pilihan == "b") {
  if (uang < hargaB) {
     console.log("Selamat datang $email di Vending Machine Suka-Suka");

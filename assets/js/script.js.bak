@@ -36,24 +36,24 @@ if (email === "" && uang === 0) {
   if (uang < hargaA) {
     console.log("Selamat datang $email di Vending Machine Suka-Suka");
     console.log("Anda ingin membeli $minumanA tapi uang tidak cukup");
-    console.log("Uang anda $uang dan harga $minumanA adalah $hargaA + ", kekurangan uang anda adalah $(hargaA - uang));
+    console.log("Uang anda $uang dan harga $minumanA adalah $hargaA kekurangan uang anda adalah $(hargaA - uang)");
     console.log("Terima kasih");
   } else {
     console.log("Selamat datang $email di Vending Machine Suka-Suka");
-    console.log("Anda membeli $minumanA + ", silakan mengambil minuman anda");
-    console.log("Kembalian anda adalah $(uang - hargaA));
+    console.log("Anda membeli $minumanA silakan mengambil minuman anda");
+    console.log("Kembalian anda adalah $(uang - hargaA)");
     console.log("Terima kasih");
   }
 } else if (pilihan == "b") {
  if (uang < hargaB) {
     console.log("Selamat datang $email di Vending Machine Suka-Suka");
     console.log("Anda ingin membeli $minumanB tapi uang tidak cukup");
-    console.log("Uang anda $uang dan harga $minumanB adalah $hargaB + ", kekurangan uang anda adalah $(hargaB - uang));
+    console.log("Uang anda $uang dan harga $minumanB adalah $hargaB kekurangan uang anda adalah $(hargaB - uang)");
     console.log("Terima kasih");
   } else {
     console.log("Selamat datang $email di Vending Machine Suka-Suka");
-    console.log("Anda membeli $minumanB + ", silakan mengambil minuman anda");
-    console.log("Kembalian anda adalah $(uang - hargaB));
+    console.log("Anda membeli $minumanB silakan mengambil minuman anda");
+    console.log("Kembalian anda adalah $(uang - hargaB)");
     console.log("Terima kasih");
   }
 } else if (pilihan == "c") {
