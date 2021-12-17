@@ -34,50 +34,50 @@ if (email === "" && uang === 0) {
   console.log("Invalid input uang!");
 } else if (pilihan == "a") {
   if (uang < hargaA) {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda ingin membeli " + minumanA + " tapi uang tidak cukup");
-    console.log("Uang anda " + uang + " dan harga " + minumanA + " adalah " + hargaA + ", kekurangan uang anda adalah " + (hargaA - uang));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda ingin membeli $minumanA tapi uang tidak cukup");
+    console.log("Uang anda $uang dan harga $minumanA adalah $hargaA kekurangan uang anda adalah $(hargaA - uang)");
     console.log("Terima kasih");
   } else {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda membeli " + minumanA + ", silakan mengambil minuman anda");
-    console.log("Kembalian anda adalah " + (uang - hargaA));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda membeli $minumanA silakan mengambil minuman anda");
+    console.log("Kembalian anda adalah $(uang - hargaA)");
     console.log("Terima kasih");
   }
 } else if (pilihan == "b") {
  if (uang < hargaB) {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda ingin membeli " + minumanB + " tapi uang tidak cukup");
-    console.log("Uang anda " + uang + " dan harga " + minumanB + " adalah " + hargaB + ", kekurangan uang anda adalah " + (hargaB - uang));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda ingin membeli $minumanB tapi uang tidak cukup");
+    console.log("Uang anda $uang dan harga $minumanB adalah $hargaB kekurangan uang anda adalah $(hargaB - uang)");
     console.log("Terima kasih");
   } else {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda membeli " + minumanB + ", silakan mengambil minuman anda");
-    console.log("Kembalian anda adalah " + (uang - hargaB));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda membeli $minumanB silakan mengambil minuman anda");
+    console.log("Kembalian anda adalah $(uang - hargaB)");
     console.log("Terima kasih");
   }
 } else if (pilihan == "c") {
   if (uang < hargaC) {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda ingin membeli " + minumanC + " tapi uang tidak cukup");
-    console.log("Uang anda " + uang + " dan harga " + minumanC + " adalah " + hargaC + ", kekurangan uang anda adalah " + (hargaC - uang));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda ingin membeli $minumanC tapi uang tidak cukup");
+    console.log("Uang anda $uang dan harga $minumanC adalah $hargaC kekurangan uang anda adalah $(hargaC - uang)");
     console.log("Terima kasih");
   } else {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda membeli " + minumanC + ", silakan mengambil minuman anda");
-    console.log("Kembalian anda adalah " + (uang - hargaC));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda membeli $minumanC silakan mengambil minuman anda");
+    console.log("Kembalian anda adalah $(uang - hargaC)");
     console.log("Terima kasih");
   }
 } else {
   if (uang < hargaC) {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda ingin membeli " + minumanC + " tapi uang tidak cukup");
-    console.log("Uang anda " + uang + " dan harga " + minumanC + " adalah " + hargaC + ", kekurangan uang anda adalah " + (hargaC - uang));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda ingin membeli $minumanC tapi uang tidak cukup");
+    console.log("Uang anda $uang dan harga $minumanC adalah $hargaC kekurangan uang anda adalah $(hargaC - uang)");
     console.log("Terima kasih");
   } else {
-    console.log("Selamat datang " + email + " di Vending Machine Suka-Suka");
-    console.log("Anda membeli " + minumanC + ", silakan mengambil minuman anda");
-    console.log("Kembalian anda adalah " + (uang - hargaC));
+    console.log("Selamat datang $email di Vending Machine Suka-Suka");
+    console.log("Anda membeli $minumanC silakan mengambil minuman anda");
+    console.log("Kembalian anda adalah $(uang - hargaC)");
     console.log("Terima kasih");
   }
 }
